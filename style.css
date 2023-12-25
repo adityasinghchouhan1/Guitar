@@ -1,0 +1,142 @@
+.main-div{
+    position: relative;
+    height: 620px;
+    width: 1350px;
+    background-color:rgb(150,75,0);
+}
+
+.sideleft{
+    position: absolute;
+    height: 620px;
+    width: 170px;
+    background-color: black;
+    border-right: 30px solid rgb(68, 34, 1);
+
+}
+
+.sideright{
+    position: absolute;
+    left: 1186px;
+    height: 620px;
+    width: 180px;
+    background-color: black;
+    border-left: 30px solid rgb(66, 33, 0);
+}
+
+
+.g-circle{
+position: absolute;
+top: 200px;
+left: 510px;
+height: 250px;
+width: 250px;
+background-color: black;
+border: gold 7px solid;
+border-radius: 50%;
+}
+
+.g-wire{
+    position: absolute;
+    left:562px ;
+height: 600px;
+width: 4px;
+background-color: gold;
+}
+
+.g-wire2{
+    position: absolute;
+    left:592px ;
+height: 600px;
+width: 4px;
+background-color: gold;
+}
+
+.g-wire3{
+    position: absolute;
+    left:622px ;
+height: 600px;
+width: 4px;
+background-color: gold;
+}
+
+.g-wire4{
+    position: absolute;
+    left:652px ;
+height: 600px;
+width: 4px;
+background-color: gold;
+}
+
+.g-wire5{
+    position: absolute;
+    left:685px ;
+height: 600px;
+width: 4px;
+background-color: gold;
+}
+
+.g-wire6{
+    position: absolute;
+    left:715px ;
+height: 600px;
+width: 4px;
+background-color: gold;
+}
+
+.wire-c{
+    position: absolute;
+    top: 580px;
+    left: 537px;
+    height: 35px;
+    width: 205px;
+    background-color: black;
+    border: solid gold 3px;
+}
+
+.bttn{
+    font-size: 15px;
+}
+.a{
+    color: black;
+}
+
+.b{
+    color:black;
+}
+.c{
+    color: black;
+}
+.d{
+    color: black;
+}
+.e{
+    color:black;
+}
+.f{
+    color: black;
+}
+
+.picb{
+    position: absolute;
+    top: 80px;
+    left: 370px;
+    height: 500px;
+    width: 700px;
+}
+
+
+.stringAni{
+    animation:myAnim 2s ease-out 0s 1 reverse both;}
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
